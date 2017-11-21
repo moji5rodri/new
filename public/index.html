@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+  </script>
+	<script type="text/javascript" src="main.js">
+
+	</script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form method="get">
+	<p>
+		<label for="first_name">Nombre</label>
+		<input type="text" name="first_name" id="first_name" required class="input-text">
+	</p>
+
+	<p>
+		<label for="full_name">Apellidos</label>
+		<input type="text" name="text-name" id="full_name" class="input-text">
+	</p>
+
+	<p>
+		<label for="mail">Correo</label>
+		<input type="text" name="text-name" id="mail" class="input-text">
+	</p>
+
+	<p>
+		<label for="birthdate">Fecha de nacimiento:</label>
+		<input type="date" min="1990-01-01" max="2016-12-31" id="birthdate" name="birthdate">
+	</p>
+
+	<p>
+		<label for="sexo">Sexo</label>
+		<input type="radio" name="gender" value="f" id="femenino"/>
+		<label for="femenino">Female</label>
+		<input type="radio" name="gender" value="m" id="masculino"/>
+		<label for="masculino">Male</label>
+	</p>
+
+	<p>
+		<label for="color">Color de ojos</label>
+		<input type="radio" name="color" value="gn" id="green"/>
+		<label for="green">Green</label>
+		<input type="radio" name="color" value="bk" id="black"/>
+		<label for="black">Black</label>
+		<input type="radio" name="color" value="bl" id="blue"/>
+		<label for="blue">Blue</label>
+	</p>
+
+	<p>
+		<label for="language">Idiomas</label>
+		<input type="checkbox" name="language" value="En" id="English"/>
+		<label for="English">English</label>
+		<input type="checkbox" name="language" value="Sp" id="Spanish"/>
+		<label for="Spansih">Spanish</label>
+		<input type="checkbox" name="language" value="Pr" id="Portuguese"/>
+		<label for="Portuguese">Portuguese</label>
+		<input type="checkbox" name="language" value="Ge" id="German"/>
+		<label for="German">German</label>
+	</p>
+
+	<p>
+		<textarea name="dedicacion" rows="4" cols="40" id="dedicacion" placeholder="Menciona algo que te guste"></textarea>
+	</p>
+
+	<input type="submit" value="Registrar" >
+</form>
+</body>
+</html>
